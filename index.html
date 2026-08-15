@@ -2,15 +2,75 @@
 <html>
 <head>
     <title>Appu Wallpaper</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 25px;
+            background: #222;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        .wallpaper {
+            margin: 30px auto;
+            max-width: 90%;
+        }
+
+        .wallpaper img {
+            width: 500px;
+            max-width: 100%;
+            border-radius: 15px;
+        }
+
+        .download {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: #fff;
+            color: #111;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .download:hover {
+            background: #ddd;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Welcome to Appu Wallpaper</h1>
+    <header>
+        <h1>📱 Appu Wallpaper</h1>
+        <p>Beautiful wallpapers for your phone</p>
+    </header>
 
-    <p>Download beautiful wallpapers for your phone.</p>
+    <div class="wallpaper">
+        <img src="benz.png" alt="Mercedes Benz Wallpaper">
 
-    <img src="benz.png" width="300">
+        <br>
+
+        <a class="download" href="benz.png" download>
+            ⬇️ Download Wallpaper
+        </a>
+    </div>
 
 </body>
 </html>
